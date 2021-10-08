@@ -24,11 +24,8 @@ const ListaPokemon = () => {
   };
 
   const prev = () => {
-    if (data.prev === null) {
-    } else {
-      setUrl(data.previous);
-      scrollToTop();
-    }
+    setUrl(data.previous);
+    scrollToTop();
   };
 
   return (
@@ -52,7 +49,7 @@ const ListaPokemon = () => {
         <Button
           variant="dark"
           className="p-2 text-light w-25 btnPulse"
-          onClick={() => setUrl(data.previous)}
+          onClick={prev}
         >
           <h4>{"<<"}</h4>
         </Button>

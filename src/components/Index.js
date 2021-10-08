@@ -15,27 +15,28 @@ const Index = () => {
             <Carousel>
               <Carousel.Item interval={1500} className="">
                 <img
-                  className="d-block contenedor"
-                  src={process.env.PUBLIC_URL + "pokeprueba.jpg"}
+                  className="d-block contenedor ajustable"
+                  src={process.env.PUBLIC_URL + "pokeprueba1.jpg"}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={1500} className="">
                 <img
-                  className="d-block contenedor"
-                  src={process.env.PUBLIC_URL + "pokeprueba.jpg"}
+                  className="d-block contenedor ajustable"
+                  src={process.env.PUBLIC_URL + "pokeprueba2.jpg"}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={1500} className="">
                 <img
-                  className="d-block contenedor"
-                  src={process.env.PUBLIC_URL + "pokeprueba.jpg"}
+                  className="d-block contenedor ajustable"
+                  src={process.env.PUBLIC_URL + "pokeprueba3.png"}
                   alt="Second slide"
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
+          <h1 className="text-center">Ingreso a la Poke dex</h1>
           <Col className="d-flex justify-content-center mb-4" md={12}>
             <Link
               className="redondo shake shadowButton"
