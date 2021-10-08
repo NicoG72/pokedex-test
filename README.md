@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+#Titulo
+Bienvenidos a una nueva experiencia de una Pokedex, en al cual podremos acceder a toda la informacion de tus pokemons favoritos,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Ingreso:
 
-## Available Scripts
+- Podras ingresar a la pokedex desde: el navbar o el boton que se encuentra en la pagina de inicio en forma de pokebola
+- Para poder acceder a una mayor informacion del pokemon deberas hacer click en el boton que se encuentra en la parte superior derecha de la tarjeta del pokemon, la cual abrira un desplegable con una informacion mas completa de cada pokemon
+- Al final del formulario encontraras dos botones, los cuales podras cambiar de pagina y recargara de a 20 pokemones por formulario
+- Por ultimo el buscador podras buscar dentro de dicho formulario el pokemon que desees y se encuentre dentro del registro
 
-In the project directory, you can run:
+####Descripcion de la pagina
+Pokedex 3.0 es una pagina web en la cual podras informarte acerca de los miles de pokemons que existen hasta la fecha, recopilamos la informacion mas completa de cada uno de ellos, la cual podras verla en un desplegable que contiene cada tarjeta del pokemon correspondiente
+la informacion disponible es:
 
-### `npm start`
+- Nombre
+- Tipo
+- Habilidades
+- Altura
+- Peso
+- Experiencia
+- Evoluciones
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+###Librerias implementadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React Router
+- React Bootstrap
+- Bootstrap
+- FontAwesome
+- Uigra y Css Gradients
+- Sass
+- CSS
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Diseñada con ReactJs
