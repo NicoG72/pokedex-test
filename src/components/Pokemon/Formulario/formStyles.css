@@ -1,0 +1,11 @@
+.ovalo {
+  border-radius: 25px;
+}
+.formPokemon {
+  background: rgb(165, 195, 195);
+  background: radial-gradient(
+    circle,
+    rgba(165, 195, 195, 1) 0%,
+    rgba(139, 139, 138, 1) 100%
+  );
+}

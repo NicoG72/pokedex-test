@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navigation from "./components/common/Navigation";
+import Footer from "./components/common/Footer";
+import Index from "./components/Index";
+import ListaPokemon from "./components/ListaPokemon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation />
+      <Switch>
+        <Route exact path="/">
+          <Index></Index>
+        </Route>
+        <Route exact path="/lista-pokemon">
+          <ListaPokemon></ListaPokemon>
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
